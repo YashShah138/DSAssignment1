@@ -47,3 +47,4 @@ public class LinkedQueue<T> {
         return front == end;
     }
 }
+
