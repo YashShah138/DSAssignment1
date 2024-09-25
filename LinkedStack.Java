@@ -7,7 +7,7 @@
 public class LinkedStack <T> {
     
     //pointer 
-    private Node <T> first = null;
+    private Node <T> front = null;
 
     
     //checks if linked list is empty 
@@ -17,17 +17,17 @@ public class LinkedStack <T> {
     //pushing numbers into linked list 
     public void push(T item)
     {
-        Node oldfirst = first;
-        first = new Node();
-        first.item = item;
-        first.next = oldfirst;
+        Node oldfirst = front;
+        front = new Node();
+        front.item = item;
+        front.next = oldfirst;
     }
     
     //poping numbers of linked list 
     public T pop()
     {
-        T item = first.item;
-        first = first.next;
+        T item = front.item;
+        front = front.next;
         return item;
     }
 }
