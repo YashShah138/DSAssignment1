@@ -1,0 +1,27 @@
+public class LinkedStack <T> {
+    
+    //pointer 
+    private Node <T> first = null;
+
+    
+    //checks if linked list is empty 
+    public boolean isEmpty()
+    { return first == null; }
+
+    //pushing numbers into linked list 
+    public void push(T item)
+    {
+        Node oldfirst = first;
+        first = new Node();
+        first.item = item;
+        first.next = oldfirst;
+    }
+    
+    //poping numbers of linked list 
+    public T pop()
+    {
+        T item = first.item;
+        first = first.next;
+        return item;
+    }
+}
