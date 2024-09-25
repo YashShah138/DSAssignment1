@@ -7,8 +7,12 @@
 public class LinkedStack <T> {
     
     //pointer 
-    private Node <T> front = null;
+    private Node <T> front ;
 
+    public LinkedStack (){
+        front = null;
+
+    }
     
     //checks if linked list is empty 
     public boolean isEmpty()
