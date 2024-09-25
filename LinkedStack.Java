@@ -30,8 +30,13 @@ public class LinkedStack <T> {
     //poping numbers of linked list 
     public T pop()
     {
+    if (front == null) 
+            System.err.println("Stack is empty");
+
+    else {
         T item = front.item;
         front = front.next;
         return item;
+        }
     }
 }
