@@ -1,6 +1,7 @@
 # **CS 2341** 
 ## Assignment 1
 * @author: Yash Shah
+* @author: Dani Jerez
 * @duedate: September 29, 2024
 
 ### Objective
