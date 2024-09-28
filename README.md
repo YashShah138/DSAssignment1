@@ -27,4 +27,18 @@
 4. Performance Considerations:
     - Your implementation should be efficient in terms of time and space,
        especially given the large dataset.
-    - Consider the use of appropriate data structures and algorithms t- handle the high volume of log entries. Solution hint: Use linked list for the implementation of both queue and stack.
+    - Consider the use of appropriate data structures and algorithms to handle the high volume of log entries. Solution hint: Use a linked list for the implementation of both queue and stack.
+
+### Sample Output
+```bash
+# commands to compile and execute the assignment
+
+$ javac TestClient.java
+$ java TestClient
+
+# The output does extend further than what is shown (the full 100 lines)
+#     but for a screenshot, I have limited the length of the output.
+```
+
+![SC 2024-09-28 at 9 55 14 AM](https://github.com/user-attachments/assets/971be249-aa56-4793-9aaa-2530a1d3a555)
+
