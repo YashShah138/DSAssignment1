@@ -29,7 +29,7 @@
        especially given the large dataset.
     - Consider the use of appropriate data structures and algorithms to handle the high volume of log entries. Solution hint: Use a linked list for the implementation of both queue and stack.
 
-### Sample Output
+## Sample Output
 ```bash
 # commands to compile and execute the assignment
 
@@ -40,5 +40,5 @@ $ java TestClient
 #     but for a screenshot, I have limited the length of the output.
 ```
 
-![SC 2024-09-28 at 9 55 14 AM](https://github.com/user-attachments/assets/971be249-aa56-4793-9aaa-2530a1d3a555)
+![SC 2024-09-28 at 10 41 38 AM](https://github.com/user-attachments/assets/a9329490-357a-4eea-b19e-1f2210c8de9a)
 
