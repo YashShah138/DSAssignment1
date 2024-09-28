@@ -58,9 +58,10 @@ public class TestClient {
         System.out.println("\033[0;1m" + "\nLog Levels Count: " + "\033[0m");
         System.out.println("INFO: " + infoCount);
         System.out.println("WARN: " + warnCount);
+        System.out.println("Memory Warnings: " + memoryWarningCount);
         System.out.println("ERROR: " + errorCount);
 
-        // Now, to print the recent 100 errors in the correct order, use a temporary stack
+        // Use a temp stack to correct the order of printing
         System.out.println("\nThe Most Recent 100 Errors: ");
         LinkedStack<String> tempStack = new LinkedStack<>();
 
