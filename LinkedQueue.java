@@ -16,7 +16,7 @@ public class LinkedQueue<T> {
 
     // Enqueue method
     public void enqueue(T data) {
-        Node<T> newNode = new Node<> (data);
+        Node<T> newNode = new Node<>(data);
         
         if (end == null) {
             front = end = newNode;
@@ -47,4 +47,3 @@ public class LinkedQueue<T> {
         return front == end;
     }
 }
-
